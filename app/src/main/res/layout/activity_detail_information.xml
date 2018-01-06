@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.naveed.darzii.Adapters.DetailInformationActivity">
+
+
+    <ImageButton
+        android:id="@+id/imgBtndelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        app:srcCompat="@drawable/ic_delete_black_24dp" />
+
+
+
+    <TextView
+        android:id="@+id/tvId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Id"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvChestSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chest Size"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvCollarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Collar Size"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvShirtLenght"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shirt Lenght"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvArmLenght"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ArmLenght"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        />
+
+</LinearLayout>
